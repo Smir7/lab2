@@ -1,47 +1,93 @@
-# build
-# nginx.conf
-# README.md
-# .git/
-monitoring/
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.DS_Store
+.AppleDouble
+.LSOverride
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+*.icloud
+
+# Coverage
+lib-cov
+.nyc_output
+
+# Node
+dist
 node_modules/
-screenshots/
-test/
-build/reports/
-dist/
-vagrant/
-logs/
-# Dockerfile
-.npmrc
-# /bom.json
-# /bom.xml
-frontend/node_modules/
-frontend/dist/
+/node_modules
+jspm_packages/
+.lock-wscript
+.node_repl_history
+.webpack/
 
-# Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
 
-# Virtual Environment
-.venv/
-venv/
-env/
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
 
-# Данные программы
-data.txt
+# Runtime data
+pids
+Icon
+*.pid
+*.seed
+*.pid.lock
+.npm
+.vscode
+.vscode-test
+
+# Compiled source #
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Packages #
+*.7z
+*.dmg
+*.gz
+*.isof
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Logs and databases #
 *.log
-*.tmp
+*.sql
+*.sqlite
+logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
 
-# Конфигурация
+# ENV
 .env
-.secrets
-config.ini
-
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-EOF
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
